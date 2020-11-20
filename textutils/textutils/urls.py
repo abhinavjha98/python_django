@@ -19,5 +19,11 @@ from .import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name='index'),
-    path('about',views.about,name='about')
+    path('analyze',views.analyze,name='analyze')
+    # path('removepunc',views.removepunc,name='rempun'),
+    # path('capitalizefirst',views.capitalizefirst,name='capfirst'),
+    # path('newlineremove',views.newlineremove,name='capitalizefirst'),
+    # path('spaceremover',views.spaceremover,name='spaceremover'),
+    # path('charcount',views.charcount,name='charcount')
+
 ]
