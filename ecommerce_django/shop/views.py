@@ -14,13 +14,14 @@ def about(request):
     return render(request,'shop/about.html')
 
 def contact(request):
-    return HttpResponse("We are at contact")
+    return HttpResponse("We are at contact page")
 
 def tracker(request):
-    return HttpResponse("We are at tracker")
+    return HttpResponse("We are at tracker page")
 
 def search(request):
-    return HttpResponse("We are at search")
+    return HttpResponse("We are at search page")
+    
 
 def productView(request):
     return HttpResponse("We are at product view")
