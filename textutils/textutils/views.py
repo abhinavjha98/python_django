@@ -4,6 +4,9 @@ from django.shortcuts import render
 def index(request):
 	return render(request,'index.html')
 
+def datatabless(request):
+	return render(request,'datatables.html')
+
 def analyze(request):
 	djtext = request.POST.get('text',"default")
 	removepunc = request.POST.get('removepunc',"off")
